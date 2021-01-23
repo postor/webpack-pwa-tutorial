@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --mode=development",
+    "build": "webpack build --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,11 +24,14 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "babel-loader": "^8.2.2",
+    "dexie": "^3.0.3",
     "html-webpack-plugin": "^4.5.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "webpack": "^5.17.0",
-    "webpack-cli": "^4.4.0"
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2",
+    "workbox-webpack-plugin": "^6.0.2"
   },
   "dependencies": {}
 }
