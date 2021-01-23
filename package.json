@@ -1,0 +1,33 @@
+{
+  "name": "webpack-pwa-tutorial",
+  "version": "1.0.0",
+  "description": "基于webpack只做PWA的例程",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode=development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/webpack-pwa-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/webpack-pwa-tutorial/issues"
+  },
+  "homepage": "https://github.com/postor/webpack-pwa-tutorial#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "dependencies": {}
+}
